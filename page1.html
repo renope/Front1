@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        form {
+            float: left;
+        }
+
+        fieldset {
+            width: 227px;
+        }
+
+        .in {
+            float: right;
+            margin: 7px;
+        }
+
+
+        input[type="text"] {
+            width: 250px;
+            height: 22px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="*">
+        <div class="place_holder in">
+            <fieldset>
+                <legend>Title</legend>
+                <input type="radio" id="mister" name="gender" value="mister"><label for="mister">Mister</label><br>
+                <input type="radio" id="miss" name="gender" value="miss"><label for="miss">Miss</label><br>
+            </fieldset>
+        </div>
+        <br>
+        <div class="in">
+            <label for="n">Name: <abbr title="required">*</abbr></label>
+            <input type="text" id="n" name="n">
+        </div>
+        <br>
+        <div class="in">
+            <label for="e">E-mail: <abbr title="required">*</abbr></label>
+            <input type="text" id="e" name="e">
+        </div>
+        <br>
+        <div class="in">
+            <label for="p">Password: <abbr title="required">*</abbr></label>
+            <input type="text" id="p" name="p">
+        </div>
+    </form>
+
+</body>
+
+</html>
